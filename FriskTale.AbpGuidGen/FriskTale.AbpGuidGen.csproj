@@ -3,7 +3,19 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>FriskTale.AbpGuidGen</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Description>将Abp的有序Guid生成器单独提取出来</Description>
     <PackageId>FriskTale.AbpGuidGen</PackageId>
+    <RootNamespace>FriskTale.AbpGuidGen</RootNamespace>
+    <Product>AbpGuidGen</Product>
+    <Company>FriskTale</Company>
+    <Authors>FriskTale</Authors>
+    <Copyright>FriskTale</Copyright>
+    <PackageProjectUrl>https://github.com/frisktale/FriskTale.AbpGuidGen</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0</Version>
+    <PackageReleaseNotes></PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
