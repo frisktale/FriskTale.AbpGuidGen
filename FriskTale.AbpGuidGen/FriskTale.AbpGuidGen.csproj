@@ -14,7 +14,7 @@
     <Copyright>FriskTale</Copyright>
     <PackageProjectUrl>https://github.com/frisktale/FriskTale.AbpGuidGen</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageReleaseNotes></PackageReleaseNotes>
   </PropertyGroup>
 

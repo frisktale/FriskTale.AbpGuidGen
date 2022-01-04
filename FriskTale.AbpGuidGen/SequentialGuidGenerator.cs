@@ -7,7 +7,7 @@ namespace FriskTale.AbpGuidGen
     {
         private static readonly RandomNumberGenerator _randomNumberGenerator = RandomNumberGenerator.Create();
 
-        public static Guid Create(SequentialGuidType guidType)
+        public static Guid Create(SequentialGuidType guidType = SequentialGuidType.SequentialAsString)
         {
             // We start with 16 bytes of cryptographically strong random data.
             var randomBytes = new byte[10];

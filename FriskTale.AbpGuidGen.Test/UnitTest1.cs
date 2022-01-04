@@ -23,4 +23,10 @@ public class UnitTest1
     {
         SequentialGuidGenerator.Create(SequentialGuidType.SequentialAsBinary);
     }
+
+    [TestMethod]
+    public void TestDefaultId()
+    {
+        SequentialGuidGenerator.Create();
+    }
 }
